@@ -1,52 +1,52 @@
-°æ±¾ºÅ£ºv6.3.6_20151215
-¼æÈİ°æ±¾£ºCTP1.0 v6.3.6¼°ÒÔÉÏºóÌ¨ÏµÍ³
+ç‰ˆæœ¬å·ï¼šv6.3.6_20151215
+å…¼å®¹ç‰ˆæœ¬ï¼šCTP1.0 v6.3.6åŠä»¥ä¸Šåå°ç³»ç»Ÿ
 
-±ä¸üËµÃ÷£º
-1. ½»Ò×Àà½Ó¿ÚÖĞĞÂÔö×Ö¶ÎIPµØÖ·¼°MacµØÖ·£»ÒªÇó½»Ò×ÖÕ¶ËÒÔ¼°³ÌĞò»¯½»Ò×ÏµÍ³×ÔĞĞ×¥È¡ÆäÖ´ĞĞ³ÌĞòÔËĞĞËùÔÚÉè±¸µÄIPµØÖ·ºÍMacµØÖ·£¬²¢ÔÚ½øĞĞ½»Ò×Ö¸Áî
-Éê±¨Ê±ÌîÈëÕâÁ½¸ö×Ö¶ÎÖĞ£»
+å˜æ›´è¯´æ˜ï¼š
+1. äº¤æ˜“ç±»æ¥å£ä¸­æ–°å¢å­—æ®µIPåœ°å€åŠMacåœ°å€ï¼›è¦æ±‚äº¤æ˜“ç»ˆç«¯ä»¥åŠç¨‹åºåŒ–äº¤æ˜“ç³»ç»Ÿè‡ªè¡ŒæŠ“å–å…¶æ‰§è¡Œç¨‹åºè¿è¡Œæ‰€åœ¨è®¾å¤‡çš„IPåœ°å€å’ŒMacåœ°å€ï¼Œå¹¶åœ¨è¿›è¡Œäº¤æ˜“æŒ‡ä»¤
+ç”³æŠ¥æ—¶å¡«å…¥è¿™ä¸¤ä¸ªå­—æ®µä¸­ï¼›
 
-	///IPµØÖ·
+	///IPåœ°å€
 	TThostFtdcIPAddressType	IPAddress;
 	typedef char TThostFtdcIPAddressType[16];
 
-	///MacµØÖ·
+	///Macåœ°å€
 	TThostFtdcMacAddressType	MacAddress;
 	typedef char TThostFtdcMacAddressType[21];
 
-   Ó°Ïì½Ó¿ÚÈçÏÂ£º
+   å½±å“æ¥å£å¦‚ä¸‹ï¼š
 
-	ÇëÇóº¯Êı		º¬Òå			Ê¹ÓÃµÄÊı¾İ½á¹¹
-	ReqOrderInsert		±¨µ¥			CthostFtdcInputOrderField
-	ReqOrderAction		±¨µ¥²Ù×÷£¨³·µ¥£©	CthostFtdcInputOrderActionField
-	ReqParkedOrderInsert	Ô¤Âñµ¥			CthostFtdcParkedOrderField
-	ReqParkedOrderAction	Ô¤Âñ³·µ¥		CThostFtdcParkedOrderActionField
-	ReqQuoteInsert		±¨¼Û			CThostFtdcInputQuoteField
-	ReqQuoteAction		±¨¼Û²Ù×÷£¨³·±¨¼Û£©	CThostFtdcInputQuoteActionField
-	ReqForQuoteInsert	Ñ¯¼Û			CthostFtdcInputForQuoteField
-	ReqExecOrderInsert	Ö´ĞĞĞû¸æ£¨ĞĞÈ¨£©	CThostFtdcInputExecOrderField
-	ReqExecOrderAction	Ö´ĞĞĞû¸æ²Ù×÷		CThostFtdcInputExecOrderActionField
-	ReqCombActionInsert	ÉêÇë×éºÏ£¨ÖĞ½ğ£©	CThostFtdcInputCombActionField
-	ReqBatchOrderAction	ÅúÁ¿³·µ¥£¨´óÉÌ£©	CThostFtdcInputBatchOrderActionField
+	è¯·æ±‚å‡½æ•°		å«ä¹‰			ä½¿ç”¨çš„æ•°æ®ç»“æ„
+	ReqOrderInsert		æŠ¥å•			CthostFtdcInputOrderField
+	ReqOrderAction		æŠ¥å•æ“ä½œï¼ˆæ’¤å•ï¼‰	CthostFtdcInputOrderActionField
+	ReqParkedOrderInsert	é¢„åŸ‹å•			CthostFtdcParkedOrderField
+	ReqParkedOrderAction	é¢„åŸ‹æ’¤å•		CThostFtdcParkedOrderActionField
+	ReqQuoteInsert		æŠ¥ä»·			CThostFtdcInputQuoteField
+	ReqQuoteAction		æŠ¥ä»·æ“ä½œï¼ˆæ’¤æŠ¥ä»·ï¼‰	CThostFtdcInputQuoteActionField
+	ReqForQuoteInsert	è¯¢ä»·			CthostFtdcInputForQuoteField
+	ReqExecOrderInsert	æ‰§è¡Œå®£å‘Šï¼ˆè¡Œæƒï¼‰	CThostFtdcInputExecOrderField
+	ReqExecOrderAction	æ‰§è¡Œå®£å‘Šæ“ä½œ		CThostFtdcInputExecOrderActionField
+	ReqCombActionInsert	ç”³è¯·ç»„åˆï¼ˆä¸­é‡‘ï¼‰	CThostFtdcInputCombActionField
+	ReqBatchOrderAction	æ‰¹é‡æ’¤å•ï¼ˆå¤§å•†ï¼‰	CThostFtdcInputBatchOrderActionField
 
-2. ½»Ò×Àà½Ó¿ÚÖĞĞÂÔöÒÔÏÂ×Ö¶Î£¬×÷ÎªÈÕºó¼æÈİCTP2.0ºóÌ¨ÏµÍ³µÄ±£Áô×Ö¶Î£¬¶Ô½ÓÒ»´úºóÌ¨Ê±ÕâĞ©×Ö¶ÎÔİ²»Æğ×÷ÓÃ¡£
+2. äº¤æ˜“ç±»æ¥å£ä¸­æ–°å¢ä»¥ä¸‹å­—æ®µï¼Œä½œä¸ºæ—¥åå…¼å®¹CTP2.0åå°ç³»ç»Ÿçš„ä¿ç•™å­—æ®µï¼Œå¯¹æ¥ä¸€ä»£åå°æ—¶è¿™äº›å­—æ®µæš‚ä¸èµ·ä½œç”¨ã€‚
 
 	TThostFtdcInvestUnitIDType	InvestUnitID;
 	typedef char TThostFtdcInvestUnitIDType[17];
-	Í¶×Êµ¥Ôª´úÂë	
+	æŠ•èµ„å•å…ƒä»£ç 	
 
 	TThostFtdcAccountIDType	AccountID;
 	typedef char TThostFtdcAccountIDType[13];
-	×Ê½ğÕËºÅ
+	èµ„é‡‘è´¦å·
 
 	TThostFtdcCurrencyIDType	CurrencyID;
 	typedef char TThostFtdcCurrencyIDType[4];
-	±ÒÖÖ´úÂë£¬Ö¸¶¨ËùÊ¹ÓÃ×Ê½ğÕÊºÅµÄ±ÒÖÖ£¬ÈËÃñ±ÒÎªCNY£¬ÃÀÔªÎªUSD
+	å¸ç§ä»£ç ï¼ŒæŒ‡å®šæ‰€ä½¿ç”¨èµ„é‡‘å¸å·çš„å¸ç§ï¼Œäººæ°‘å¸ä¸ºCNYï¼Œç¾å…ƒä¸ºUSD
 
 	TThostFtdcClientIDType	ClientID;
 	typedef char TThostFtdcClientIDType[11];
-	½»Ò×±àÂë£¬ ½Ó¿Ú»Ø±¨ÖĞ°üº¬´Ë×Ö¶Î£¬Ö¸ÁîÉê±¨Ê±²»ĞèÒªÌî´Ë×Ö¶Î
+	äº¤æ˜“ç¼–ç ï¼Œ æ¥å£å›æŠ¥ä¸­åŒ…å«æ­¤å­—æ®µï¼ŒæŒ‡ä»¤ç”³æŠ¥æ—¶ä¸éœ€è¦å¡«æ­¤å­—æ®µ
 
-3. ĞÂÔö½Ó¿Ú<½»Ò×Ëù¹«¸æÍ¨Öª>£¬ÓÃÓÚÅÌÖĞÍÆËÍÖĞ½ğËù·¢²¼µÄ¹«¸æÍ¨Öª£¬½öÓÃÓÚÖĞ½ğËù¡£
+3. æ–°å¢æ¥å£<äº¤æ˜“æ‰€å…¬å‘Šé€šçŸ¥>ï¼Œç”¨äºç›˜ä¸­æ¨é€ä¸­é‡‘æ‰€å‘å¸ƒçš„å…¬å‘Šé€šçŸ¥ï¼Œä»…ç”¨äºä¸­é‡‘æ‰€ã€‚
 
-	º¯ÊıÃû			º¬Òå			Ê¹ÓÃµÄÊı¾İ½á¹¹
-	OnRtnBulletin		½»Ò×Ëù¹«¸æÍ¨Öª		CThostFtdcBulletinField 
+	å‡½æ•°å			å«ä¹‰			ä½¿ç”¨çš„æ•°æ®ç»“æ„
+	OnRtnBulletin		äº¤æ˜“æ‰€å…¬å‘Šé€šçŸ¥		CThostFtdcBulletinField 
