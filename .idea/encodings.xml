@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/doc/v6.3.6_tradeapi_20151215_2/tradeapi_windows32/ThostFtdcMdApi.h" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/doc/v6.3.6_tradeapi_20151215_2/tradeapi_windows32/ThostFtdcTraderApi.h" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/doc/v6.3.6_tradeapi_20151215_2/tradeapi_windows32/ThostFtdcUserApiDataType.h" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/doc/v6.3.6_tradeapi_20151215_2/tradeapi_windows32/ThostFtdcUserApiStruct.h" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/doc/v6.3.6_tradeapi_20151215_2/tradeapi_windows64/ThostFtdcMdApi.h" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/doc/v6.3.6_tradeapi_20151215_2/tradeapi_windows64/ThostFtdcTraderApi.h" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/doc/v6.3.6_tradeapi_20151215_2/tradeapi_windows64/ThostFtdcUserApiDataType.h" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/doc/v6.3.6_tradeapi_20151215_2/tradeapi_windows64/ThostFtdcUserApiStruct.h" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/doc/v6.3.6_tradeapi_20151215_2/v636_20151215_traderAPI版本说明.txt" charset="UTF-8" />
   </component>
 </project>
