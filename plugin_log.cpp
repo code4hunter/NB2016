@@ -3,8 +3,8 @@
 //
 #include <stdio.h>      /* printf */
 #include <stdarg.h>
-#include <c++/iostream>
-#include <c++/cassert>
+#include <iostream>
+#include <cassert>
 #include "plugin_log.h"
 #include "../messages/message_log.h"
 

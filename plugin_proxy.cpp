@@ -4,7 +4,7 @@
 
 #include "plugin_proxy.h"
 #include "dynamic_library.h"
-#include <c++/stdexcept>
+#include <stdexcept>
 
 dynamic_library::symbol_type plugin_proxy::_create = NULL;
 dynamic_library::symbol_type plugin_proxy::_destroy = NULL;

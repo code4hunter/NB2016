@@ -7,7 +7,7 @@
 
 #include "plugin_interface.h"
 #include <memory>
-#include <c++/mutex>
+#include <mutex>
 
 class PluginManager : public ICallback {
     PLUGINS _plugins;

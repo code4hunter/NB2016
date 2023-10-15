@@ -10,7 +10,7 @@
 
 #include <memory>
 #include <string>
-#include <c++/mutex>
+#include <mutex>
 
 class plugin_proxy {
     typedef plugin_interface *CREATE_T(void);
